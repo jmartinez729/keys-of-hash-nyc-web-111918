@@ -13,9 +13,9 @@ end
 class Hash
   def keys_of(arguments)
     array = []
-    animals.each do |animal, location|
-      if arguments == location
-        array << animal
+    self.each do |key, value|
+      if arguments == value
+        array << key
       end 
     end 
     
