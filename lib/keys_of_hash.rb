@@ -13,7 +13,12 @@ end
 class Hash
   def keys_of(arguments)
     array = []
-    self.each do |
+    animals.each do |animal, location|
+      if arguments == location
+        array << animal
+      end 
+    end 
     
+    return array
   end
 end
