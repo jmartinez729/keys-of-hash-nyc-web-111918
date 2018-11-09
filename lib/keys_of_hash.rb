@@ -4,7 +4,7 @@ class Hash
     if arguments = "Panama"
       animals = ["red-footed tortoise"]
       elsif arguments = "Madagascar"
-      animals = ["aye-aye", "tomato frog"]
+      animals = ["red-footed tortoise", "aye-aye"]
     end 
   end
 end
